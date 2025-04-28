@@ -4,12 +4,12 @@ Reprogen will produce repostoriy base on ID at  GitHub https://github.com/hayotz
 
 ## Prerequisite
 
-Node /n
-npm init /n
-npm install express \n
-npm install axios
-npm install simple-git
-npm start
+Node \
+npm init \
+npm install express \
+npm install axios \
+npm install simple-git\
+npm start 
 
 ##  Create repostoriy
 

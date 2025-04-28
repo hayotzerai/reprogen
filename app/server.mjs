@@ -1,10 +1,10 @@
 import  express from 'express';
-import { createAndPushRepo } from './modules/push.mjs';
+import { create } from './modules/git.mjs';
 const app = express();
 const port = 3000;
 
 // Define a route
-app.get('/:token/:repro',createAndPushRepo);
+app.get('/:token/:repro',create);
 
 // Start the server
 app.listen(port, () => {

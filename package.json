@@ -1,11 +1,15 @@
 {
   "name": "reprogen",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/server.js"    
   },
   "author": "Gad Biran The King",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }

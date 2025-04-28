@@ -1,15 +1,26 @@
 {
   "name": "reprogen",
   "version": "1.0.0",
-  "main": "app/server.js",
+  "main": "app/server.mjs",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app/server.js"    
+    "start": "node app/server.mjs"
   },
-  "author": "Gad Biran The King",
+  "author": "Gad Biran",
   "license": "ISC",
-  "description": "",
+  "description": "Automatically produce repository based on ID at GitHub ",
   "dependencies": {
-    "express": "^5.1.0"
-  }
+    "axios": "^1.9.0",
+    "express": "^5.1.0",
+    "simple-git": "^3.27.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayotzerai/reprogen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hayotzerai/reprogen/issues"
+  },
+  "homepage": "https://github.com/hayotzerai/reprogen#readme"
 }
